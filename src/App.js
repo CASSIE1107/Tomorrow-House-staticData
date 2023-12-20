@@ -1,12 +1,13 @@
 
 import './App.css';
-import BestProduct from './pages/BestProducts/BestProducts';
+import BestProductList from './pages/BestProducts/BestProductList';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <BestProduct/>
+        <BestProductList/>
       </header>
     </div>
   );
